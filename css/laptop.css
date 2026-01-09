@@ -1,0 +1,12 @@
+@media (max-width: 1300px) {
+    header { 
+        padding: 18px 64px; 
+    }
+    
+    .header_nav { 
+        display: none; 
+    }
+    .burger_icon { 
+        display: block; 
+    }
+}

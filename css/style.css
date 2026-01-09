@@ -1,0 +1,69 @@
+/*   Body    */
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/*   Header    */
+header {
+    background-color: #311500;
+    padding: 18px 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_ul {
+    display: flex;
+    column-gap: 36px;
+    list-style: none;
+    -webkit-column-gap: 36px;
+    -moz-column-gap: 36px;
+}
+
+.active,
+.inactive {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #C46A2B;
+}
+
+.inactive {
+    color: #DEE2EB;
+}
+
+.header_btn {
+    width: 100px;
+    height: 48px;
+    top: 24px;
+    left: 1246px;
+    opacity: 1;
+    border-radius: 32px;
+    border: none;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.44px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #DEE2EB;
+    background-color: #C46A2B;
+}
+
+.burger_icon {
+    display: none;
+}
