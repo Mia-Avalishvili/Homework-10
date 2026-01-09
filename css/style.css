@@ -145,7 +145,6 @@ header {
 .section2_article {
     /* background-color: #311500; */
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
@@ -158,7 +157,6 @@ header {
     height: 290px;
     padding: 8px;
     display: flex;
-    display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-orient: vertical;
     -ms-flex-direction: column;
@@ -178,3 +176,46 @@ header {
 }
 
 /* bodishi cudad daweristvis ver vxdebi ra mereva :(  */
+
+/*   footer    */
+footer {
+    background-color: #311500;
+    padding: 64px 371px;
+
+}
+
+.footer_a {
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.footer_p {
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.footer_ull4{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_ul {
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 8px;
+    /* display: -ms-flexbox; */
+}
