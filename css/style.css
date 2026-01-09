@@ -67,3 +67,114 @@ header {
 .burger_icon {
     display: none;
 }
+
+/*  1 section   */
+.section1 {
+    height: 640px;
+    background-image: url(../images/cover\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section12 {
+    height: 640px;
+    background-image: url("../images/cover\ \(4\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 120px;
+}
+
+.section_span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.1px;
+}
+
+/* 2  section   */
+.section2 {
+    background-color: #DEE2EB;
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 56px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section2_span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #311500;
+}
+
+.section_img1 {
+    width: 100%;
+    height: 215px;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+
+.section2_words {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    color: #C46A2B;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.section2_article {
+    /* background-color: #311500; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.secton_card {
+    background-color: #311500;
+    width: 280px;
+    height: 290px;
+    padding: 8px;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.shopping {
+    width: 27px;
+    height: 27px;
+}
+
+.shop-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* bodishi cudad daweristvis ver vxdebi ra mereva :(  */

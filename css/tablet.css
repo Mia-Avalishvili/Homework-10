@@ -7,8 +7,13 @@
      .header_btn{
         display: none;
     }
-    
+
     .burger_icon{
         display: block;
     }
+}
+
+/* 1 section  */
+.section12{
+        padding-top: 80px;
 }

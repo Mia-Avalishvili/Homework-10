@@ -1,7 +1,25 @@
-@media(max-width:481px){
+@media(max-width:481px) {
+
     /*   header.   */
     header {
         padding: 18px 8px;
-    
+
     }
+}
+/* 1 section  */
+.section12 {
+    padding-top: 60px;
+}
+
+.section_span {
+
+    font-size: 32px;
+
+    line-height: 40px;
+
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
 }
